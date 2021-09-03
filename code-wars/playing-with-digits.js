@@ -12,6 +12,7 @@ function digPow(n, p) {
     k += sum / n;
     let stringK = k.toString();
 
+    // if k is not an integer return -1
     if (stringK.includes('.')) {
         return -1;
     }
