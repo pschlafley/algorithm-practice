@@ -1,6 +1,6 @@
 import random
 # Algorithm to find and return the largest number in the List
-arr = [random.randint(0, 1001), random.randint(0, 1001), random.randint(0, 1001), random.randint(0, 1001), random.randint(0, 1001), random.randint(0, 1001)]
+arr = [random.randint(-100, 1001), random.randint(-100, 1001), random.randint(0, 1001), random.randint(0, 1001), random.randint(0, 1001), random.randint(0, 1001)]
 
 def highestNum(arr):
     lNum = arr[0]
